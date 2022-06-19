@@ -1,0 +1,71 @@
+/* PC  */
+
+@media (min-width: 1024px) {
+    
+}
+
+/* Tablet  */
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    
+}
+
+/* Mobile  */
+
+@media (max-width: 739px) {
+    .s-coll-full {
+        width: 100%;
+    }
+    .s-full-width {
+        width: 100%;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .menu-mobile-btn {
+        display: block !important;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav li:first-child {
+        display: inline-block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #ffff;
+        padding: 5px 41px;
+    }
+    .content-adjust {
+        height: auto !important;
+        padding-bottom: 46px;
+    }
+    #content .menber-item {
+        width: 100% !important;
+        padding-top: 30px;
+    }
+    #content {
+        max-height: initial !important;
+    }
+    #content .menber-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 16px;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+}
